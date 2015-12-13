@@ -92,17 +92,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#stage {
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+}
 
+.tower {
+  width: 30%;
+  margin-right: 2%;
+  height: 400px;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  border-bottom: solid 40px #222;
+  background-image: url("/img/peg.png");
+  background-repeat: repeat-y;
+  background-position: center;
+}
 
-
-
-
-
-
-
-
-
-
+.block {
+  height:20%;
+}
+#block1 {
+  width: 90%;
+  margin-left: 5%;
+  background-color: red;
+}
+#block2 {
+  width: 75%;
+  margin-left: 12.5%;
+  background-color: blue;
+}
+#block3 {
+  width: 60%;
+  margin-left: 20%;
+  background-color: yellow;
+}
+#block4 {
+  width: 45%;
+  margin-left: 27.5%;
+  background-color: green;
+}
+#block5 {
+  width: 30%;
+  margin-left: 35%;
+  background-color: purple;
+}
+#counter {
+    font-size: 36pt;
+    text-align: right;
+}
 
 
 
